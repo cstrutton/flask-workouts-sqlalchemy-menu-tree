@@ -8,4 +8,9 @@ env/bin/pip install -r requirements.txt
 ```
 Checkout a new branch and start experimenting.
 
+Or try this (from this [Stackoverflow question](http://stackoverflow.com/questions/2227062/how-do-i-move-a-git-branch-out-into-its-own-repository)):
+```
+git push url://to/new/repository.git branch-to-move:new-branch-name
+```
+
 Look for several repos `flask-workouts-xxxxx` as I explore various aspects of flask.
